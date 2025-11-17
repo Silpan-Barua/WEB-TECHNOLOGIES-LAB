@@ -1,0 +1,87 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.news-article 
+{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.comment-section 
+{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.stats-container
+{
+    background: #eef2f5;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+label 
+{
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input, textarea 
+{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+textarea
+{
+    resize: vertical;
+}
+
+button 
+{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #0059b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.error 
+{
+    color: red;
+    font-size: 12px;
+}
+
+.star-rating span 
+{
+    font-size: 28px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.star-rating span.selected 
+{
+    color: gold;
+}
+
+.comment-box 
+{
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
